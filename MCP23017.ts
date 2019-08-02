@@ -48,7 +48,7 @@ namespace MCP23017 {
 
     //% block
     export function setAllOuputsOn(adress: ADDRESS, port: REG_PIO) {
-        pins.i2cWriteNumber(adress, port + 0B11101111, NumberFormat.UInt16BE)
+        pins.i2cWriteNumber(adress, port + 0B11111111, NumberFormat.UInt16BE)
     }
 
     //% block
